@@ -20,6 +20,7 @@
      height: 1000px; 
      border: solid black 2px; 
      display: inline-block;
+     vertical-align: top; 
  }
 
  .threecolumn{
@@ -27,4 +28,5 @@
     height: 1000px; 
     border: solid black 2px; 
     display: inline-block;
+    vertical-align: top; 
 }

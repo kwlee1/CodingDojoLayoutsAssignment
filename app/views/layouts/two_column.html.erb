@@ -7,8 +7,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-    <div class="twocolumn"></div>
-    <div class="twocolumn"></div>
+    <div class="twocolumn">
+      <%= yield :left_column %>
+    </div>
+    <div class="twocolumn">
+      <%= yield :right_column %>
+    </div>
 <%= yield %>
 
 </body>
